@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 import UserMenu from "./UserMenu";
 
-export default function Top({country}) {
+export default function Top() {
 
   const [loggedIn,setLoggedIn] = useState(true);
   const [visible,setVisible] = useState(false);
@@ -18,9 +18,9 @@ export default function Top({country}) {
         <ul className={styles.top_list}>
           <li className={styles.li}>
             <img
-              src={country.flag}
+              src="https://www.seekpng.com/png/detail/154-1542644_small-25mm-lapel-pin-button-badge-novelty-indonesia.png" alt="Small 25mm Lapel Pin Button Badge Novelty Indonesia - Indonesia Flag Icon Vector@seekpng.com"
             />
-            <span>{country.name}</span>
+            <span>Indonesian</span>
           </li>
           <li className={styles.li}>
             <MdSecurity />
