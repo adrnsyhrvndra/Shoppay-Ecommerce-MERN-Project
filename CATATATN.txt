@@ -1,0 +1,3 @@
+--legacy-peer-deps
+
+npx kill-port 3000
