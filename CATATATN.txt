@@ -1,3 +1,30 @@
+- Kalau Menginstal Package Yang Kadaluarsa
 --legacy-peer-deps
 
+- Untuk mematikan port
 npx kill-port 3000
+
+- Jika Error Oauth Playground "Akses diblokir: Permintaan aplikasi ini tidak valid"
+1) Pergi Ke Google Console
+2) Pilih Projectmu
+3) Ke Menu Credentials
+4) Tambah URL Authorized redirect URIs dengan : https://developers.google.com/oauthplayground
+5) Authorize URL : https://mail.google.com/
+6) Pilih Account Yang Sesuai
+7) Pilih Lanjutkan
+8) Nanti akan balik lagi ke halaman Oauth Playground & Authorization Code Akan Otomotasi Ter-generate
+9) Klik Tombol Biru Exchange Authorization Code For Tokens
+10) Akan Muncul Refresh Token dan Access Tokennya.
+
+- Package Yang Digunakan
+1) Package bcyrpt untuk mengekripsi password
+2) package JSON WEB TOKEN untuk men-generate JSON Token
+3) next-connect Untuk routing dan middleware di project ini menggunakan
+4) Yup Form Package Untuk Membuat Form Di Project Ini
+5) Package Google API untuk integrasi API-API Dari Google
+
+- Website Playground Oauth Google : https://developers.google.com/oauthplayground/?code=4/0AVHEtk7rZd2svx-Dm0baA0DDcNaqRzKOM433OHyaYOaj-QRkxamfTbpY3MmGMG2VNR_t8g&scope=https://mail.google.com/
+
+- Website Email template builder : https://stripo.email/?gclid=Cj0KCQjwgLOiBhC7ARIsAIeetVA7xPlvu--aYze-IpjYqAzkkb1QoM-m_qS2uMs_w2BluvS1Rad0U7caAvS6EALw_wcB
+
+- Website React Spinners Loading Animation : https://www.davidhu.io/react-spinners/

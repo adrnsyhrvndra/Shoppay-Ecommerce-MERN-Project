@@ -2,6 +2,7 @@ import styles from './styles.module.scss';
 import Link from "next/link";
 import { IoLocationSharp } from "react-icons/io5";
 
+// export default function Copyright({country}) {
 export default function Copyright({country}) {
 
   return (
@@ -17,7 +18,7 @@ export default function Copyright({country}) {
           ))}
           <li>
             <a>
-              <IoLocationSharp /> {country.name}
+              {/* <IoLocationSharp /> {country.name} */}
             </a>
           </li>
         </ul>

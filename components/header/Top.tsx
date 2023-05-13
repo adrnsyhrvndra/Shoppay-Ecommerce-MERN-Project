@@ -7,7 +7,8 @@ import { useState } from "react";
 import UserMenu from "./UserMenu";
 import { useSession } from "next-auth/react";
 
-export default function Top({country}) {
+// export default function Top({country}) {
+export default function Top() {
 
   const { data: session } = useSession();
   const [visible,setVisible] = useState(false);
@@ -17,12 +18,12 @@ export default function Top({country}) {
       <div className={styles.top_container}>
         <div></div>
         <ul className={styles.top_list}>
-          <li className={styles.li}>
+          {/* <li className={styles.li}>
             <img
               src={country.flag}
             />
             <span>{country.name}</span>
-          </li>
+          </li> */}
           <li className={styles.li}>
             <MdSecurity />
             <span>Buyer Protection</span>

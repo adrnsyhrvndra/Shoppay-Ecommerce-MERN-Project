@@ -1,10 +1,13 @@
+import Footer from '@/components/footer'
+import Header from '@/components/header'
+import React from 'react'
 
-export const test = () => {
-    
-    return (
+export default function test() {
+  return (
+    <div>
+        <Header country="indo"/>
         
-        <div>test</div>
-        
-    )
-
+        <Footer country="indo"/>
+    </div>
+  )
 }

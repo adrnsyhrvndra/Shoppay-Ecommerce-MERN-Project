@@ -9,6 +9,8 @@ import { useSession, signIn, signOut } from "next-auth/react";
 
 const inter = Inter({ subsets: ['latin'] })
 
+// export default function Home({country}) {
+
 export default function Home({country}) {
 
   const { data: session } = useSession();
@@ -16,34 +18,36 @@ export default function Home({country}) {
 
   return (
     <div>
+      {/* <Header country={country}/> */}
       <Header country={country}/>
       {
         session ? "You Are Logged In" : "You Are Not Logged In"
       }
       <Footer country={country}/>
+      {/* <Footer country={country}/> */}
     </div>
   );
 }
 
-export async function getServerSideProps(){
+// export async function getServerSideProps(){
 
-  // Panggil API Ipregistry Location
-  let data = await axios
-  .get('https://api.ipregistry.co/66.165.2.7?key=rpoc55n1ahym3hro')
-  .then((res) => {
-    return res.data.location.country;
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+//   // Panggil API Ipregistry Location
+//   let data = await axios
+//   .get('https://api.ipregistry.co/66.165.2.7?key=rpoc55n1ahym3hro')
+//   .then((res) => {
+//     return res.data.location.country;
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
   
-  return{
-    props:{
-      country:{
-        name:data.name,
-        flag:data.flag.emojitwo
-      }
-    }
-  }
+//   return{
+//     props:{
+//       country:{
+//         name:data.name,
+//         flag:data.flag.emojitwo
+//       }
+//     }
+//   }
   
-}
+// }
