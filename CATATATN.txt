@@ -28,3 +28,5 @@ npx kill-port 3000
 - Website Email template builder : https://stripo.email/?gclid=Cj0KCQjwgLOiBhC7ARIsAIeetVA7xPlvu--aYze-IpjYqAzkkb1QoM-m_qS2uMs_w2BluvS1Rad0U7caAvS6EALw_wcB
 
 - Website React Spinners Loading Animation : https://www.davidhu.io/react-spinners/
+
+- Website Untuk Menambahkan Swiper : https://swiperjs.com/get-started
