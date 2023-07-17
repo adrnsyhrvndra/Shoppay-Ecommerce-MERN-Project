@@ -1,3 +1,6 @@
+- Untuk menjalankan project
+ npm run dev
+
 - Kalau Menginstal Package Yang Kadaluarsa
 --legacy-peer-deps
 

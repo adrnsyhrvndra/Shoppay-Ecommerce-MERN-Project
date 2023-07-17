@@ -19,18 +19,18 @@ export default function MainSwiper() {
                 slidesPerView={1}
                 spaceBetween={30}
                 loop={true}
-                autoplay={{
-                    delay: 1500,
-                    disableOnInteraction: false,
-                }}
                 pagination={{
                     clickable: true,
                 }}
+                autoplay={{
+                    delay: 2000,
+                    disableOnInteraction: false,
+                }}
                 navigation={true}
-                modules={[Autoplay,Pagination, Navigation]}
+                modules={[Autoplay, Pagination, Navigation]}
                 className="mainSwiper"
             >
-                {[...Array(10).keys()].map((i) => (
+                {[...Array(15).keys()].map((i) => (
                     <SwiperSlide>
                         <img src={`../../../images/swiper/${i + 1}.jpg`} alt="" />
                     </SwiperSlide>
