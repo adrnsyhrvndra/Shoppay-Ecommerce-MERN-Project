@@ -1,6 +1,8 @@
 import styles from "./styles.module.scss";
 import MainSwiper from "./swiper";
 import Offers from "./offers";
+import Menu from "./menu";
+import User from "./User";
 import { useSession } from "next-auth/react";
 import Link from "next/link";
 //-----------------------------
@@ -16,10 +18,10 @@ export default function Main() {
     return (
         <div className={styles.main}>
             <div className={styles.header}>Header</div>
-            <div className={styles.menu}>Menu</div>
+            <Menu/>
             <MainSwiper />
             <Offers />
-            <div className={styles.user}>User</div>
+            <User />
         </div>
     );
 }

@@ -43,6 +43,7 @@ export const offersAarray = [
         discount: "5",
     },
 ];
+
 export const menuArray = [
     {
         name: "Women's Fashion",
