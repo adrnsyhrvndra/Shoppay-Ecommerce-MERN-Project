@@ -3,6 +3,7 @@ import MainSwiper from "./swiper";
 import Offers from "./offers";
 import Menu from "./menu";
 import User from "./User";
+import Header from "./Header";
 import { useSession } from "next-auth/react";
 import Link from "next/link";
 //-----------------------------
@@ -17,7 +18,7 @@ import "swiper/css/effect-cards";
 export default function Main() {
     return (
         <div className={styles.main}>
-            <div className={styles.header}>Header</div>
+            <Header />
             <Menu/>
             <MainSwiper />
             <Offers />

@@ -25,6 +25,7 @@ npx kill-port 3000
 3) next-connect Untuk routing dan middleware di project ini menggunakan
 4) Yup Form Package Untuk Membuat Form Di Project Ini
 5) Package Google API untuk integrasi API-API Dari Google
+6) Dayjs untuk package membantu dalam manipulasi hari
 
 - Website Playground Oauth Google : https://developers.google.com/oauthplayground/?code=4/0AVHEtk7rZd2svx-Dm0baA0DDcNaqRzKOM433OHyaYOaj-QRkxamfTbpY3MmGMG2VNR_t8g&scope=https://mail.google.com/
 
